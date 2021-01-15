@@ -1,0 +1,181 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ভর্তি ফর্ম </title>
+   <link rel="stylesheet" media="all" type="text/css" href="css/style.css">
+</head>
+<body>
+        
+
+<center>
+    <a href="index.html"><img src="picture/logo.png" height="100" width="100" align="left"></a>
+    <font size="100" color="green">উলিয়া আলহাজ্ব ময়েজ উদ্দিন উচ্চ বিদ্যালয়</font>
+        
+        <h1>ভর্তি ফর্ম </h1>
+        <hr>
+            <table border="1">
+                <tr>
+                    <th><a href="online.html" style="text-decoration: none; color: green">ছাত্র / ছাত্রীর তথ্য</a></th>
+                    <th><a href="gurdian.html"  style="text-decoration: none; color: green">অভিভাবক এর  তথ্য </a></th>
+                    <th><a href="address.html"  style="text-decoration: none; color: green">ঠিকানা ও অন্যান্য তথ্য </a></th>
+                </tr>
+            </table>
+       
+        
+<form action="online.php" method="post" enctype="multipart/form-data" name="online">
+       
+<u><h3>ছাত্র / ছাত্রীর তথ্য </h3></u> <br><br>
+<table>
+    <tr>
+        <td><b>তারিখঃ</b> </td>
+        
+        <td> <input type="date" name="adate" required></td>
+    </tr>
+    <tr>
+        <td><b>ক্লাসঃ</b> </td>    
+               
+        <td>
+            <select name="class" style="font-size: 20px;">
+            <option value="one">One </option>
+            <option value="two">Two  </option>
+            <option value="three">Three  </option>
+            <option value="four">Four  </option>
+            <option value="five">Five  </option>
+            <option value="six">Six  </option>
+            <option value="seven">Seven  </option>
+            <option value="eight">Eight  </option>
+            <option value="nine">Nine  </option>
+            <option value="ten">Ten  </option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>শাখাঃ </td>
+        <td>
+            <input type="radio" name="group" value="arts"> Humnetics 
+                    
+            <input type="radio" name="group"  value="science"> Science 
+                    
+            <input type="radio" name="group"  value="comerce"> Business  
+        </td>
+    </tr>
+    <tr>
+        <td>শিফটঃ </td>
+        <td>
+            <input type="radio" name="shift" value="day"> Day 
+                    
+            <input type="radio" name="shift"  value="morning"> Morning  
+                    
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            ছাত্র / ছাত্রীর  নামঃ 
+        </td>
+        <td>
+            <input type="text" name="sname" placeholder="নিজের নাম" required>
+        </td>
+    </tr>
+    <tr>
+        <td>লিঙ্গঃ</td>
+        <td>
+            <input type="radio" name="sgender" value="male" required> Male 
+                    
+            <input type="radio" name="sgender"  value="female" required> Female 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            বয়সঃ 
+        </td>
+        <td>
+             <input type="number" name="sage"  required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+             জন্ম তারিখঃ 
+        </td>
+        <td>
+             <input type="date" name="dob" >
+        </td>
+    </tr>
+    <tr>
+        <td> এনআইডি / জন্ম নিবন্ধন নাম্বারঃ  </td>
+        <td> <input type="number" name="snid" required></td>
+    </tr>
+    <tr>
+        <td> মোবাইল নাম্বারঃ   </td>
+        <td> <input type="number" name="sphone" required></td>
+    </tr>
+    <tr>
+        <td> ইমেইলঃ   </td>
+         <td> <input type="text" name="smail" > </td>
+    </tr>
+
+<!--
+    <tr>
+        <td>ছবিঃ</td>
+                     
+                
+         <td>
+             <input type="file" name="picture">
+        </td> -->
+    </tr> 
+            
+<tr>
+    <td><u><h3>একাডেমিক  তথ্য</h3></u></td>
+</tr>
+        
+    <tr>
+        <td>প্রতিষ্ঠান এর নাম/বোর্ডঃ</td>
+        <td> <input type="text" name="ainst"></td>
+                
+    </tr>
+    <tr>
+        <td>ঠিকানাঃ </td>
+        <td><textarea name="ainstaddress"></textarea></td>
+    </tr>
+    <tr>
+        <td>জিপিএ/রোলঃ</td>
+        <td> <input type="number" name="agpa"></td>
+    </tr>
+    <tr>
+        <td>সাল/শিক্ষাবর্ষঃ </td>
+        <td> <input type="number" name="ayear"></td>
+     </tr>
+        
+    <tr>
+        <td>প্রতিষ্ঠান এর নাম/বোর্ডঃ</td>
+        <td> <input type="text" name="binst"></td>
+                
+    </tr>
+    <tr>
+        <td>ঠিকানাঃ </td>
+        <td><textarea name="binstaddress"></textarea></td>
+    </tr>
+    <tr>
+        <td>জিপিএ/রোলঃ</td>
+        <td> <input type="number" name="bgpa"></td>
+    </tr>
+    <tr>
+        <td>সাল/শিক্ষাবর্ষঃ </td>
+        <td> <input type="number" name="byear"></td>
+     </tr>
+        
+    </table>
+
+    <br> 
+    
+    <button type="submit" name="sbtn" >
+        <h2> সাবমিট
+            <script type="text/javascript">alert("সকল তথ্য ইংরেজীতে পুরন করতে হবে ")</script>
+         </h2>
+    </button> 
+         
+</form>
+</center>
+</body>
+</html>

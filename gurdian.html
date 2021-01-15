@@ -1,0 +1,87 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ভর্তি ফর্ম </title>
+   <link rel="stylesheet" media="all" type="text/css" href="css/style.css">
+</head>
+<body>
+<section class="form-section">
+        
+
+<center>
+    <a href="online.html"><img src="picture/logo.png" height="100" width="100" align="left"></a>
+<font size="100" color="green">উলিয়া আলহাজ্ব ময়েজ উদ্দিন উচ্চ বিদ্যালয়</font>
+        
+        <h1>ভর্তি ফর্ম </h1>
+        <hr>
+        <center>
+            <table border="1">
+                <tr>
+                    <th><a href="online.html"  style="text-decoration: none; color: green">ছাত্র / ছাত্রীর তথ্য</a></th>
+                    <th><a href="gurdian.html"  style="text-decoration: none; color: green">অভিভাবক এর  তথ্য </a></th>
+                    <th><a href="address.html"  style="text-decoration: none; color: green">ঠিকানা ও অন্যান্য তথ্য </a></th>
+                </tr>
+            </table>
+        </center>
+       
+        
+    <form action="gurdian.php" method="post" enctype="multipart/form-data" name="gurdian">
+        
+
+        
+        
+       
+
+        <u><h3>অভিভাবক এর  তথ্য </h3></u>
+        <table>
+            
+            <tr>
+                <td>পিতার নামঃ  </td>
+                <td><input type="text" name="fname" placeholder="পিতার  নাম" required></td>
+
+                
+            </tr>
+
+
+            <tr>
+                <td> পিতার  এনআইডি / জন্ম নিবন্ধন নাম্বারঃ  </td>
+                <td> <input type="number" name="fnid" required></td>
+            </tr>
+
+
+            <tr>
+                <td> পিতার মোবাইল  নাম্বারঃ  </td>
+                <td> <input type="number" name="fphone" required></td>
+            </tr>
+            <tr>
+                <td>
+                   মাতার  নামঃ 
+                </td>
+                <td>
+                    <input type="text" name="mname" placeholder="মাতার  নাম বাংলায় " required>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td> মাতার   এনআইডি / জন্ম নিবন্ধন নাম্বারঃ  </td>
+                <td> <input type="number" name="mnid" required></td>
+            </tr>
+
+
+            <tr>
+                <td> মাতার  মোবাইল  নাম্বারঃ  </td>
+                <td> <input type="number" name="mphone" required></td>
+            </tr>
+        </table>
+        <br>
+    <button type="submit" name="fbtn">
+        <h2> সাবমিট </h2>
+    </button>
+        <script type="text/javascript">alert("সকল তথ্য ইংরেজীতে পুরন করতে হবে ")</script>
+    </form>
+</center>
+    
+    </section>
+</body>
+</html>

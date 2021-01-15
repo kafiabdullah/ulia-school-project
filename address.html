@@ -1,0 +1,143 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ভর্তি ফর্ম </title>
+   <link rel="stylesheet" media="all" type="text/css" href="css/style.css">
+</head>
+<body>
+<section class="form-section">
+        
+
+<center>
+    <a href="online.html"><img src="picture/logo.png" height="100" width="100" align="left"></a>
+<font size="100" color="green">উলিয়া আলহাজ্ব ময়েজ উদ্দিন উচ্চ বিদ্যালয়</font>
+        
+        <h1>ভর্তি ফর্ম </h1>
+        <hr>
+       
+            <table border="1">
+                <tr>
+                    <th><a href="online.html" style="text-decoration: none; color: green">ছাত্র / ছাত্রীর তথ্য</a></th>
+                    <th><a href="gurdian.html" style="text-decoration: none; color: green">অভিভাবক এর  তথ্য </a></th>
+                    <th><a href="address.html" style="text-decoration: none; color: green">ঠিকানা ও অন্যান্য তথ্য </a></th>
+                </tr>
+            </table>
+       
+
+<form action="address.php" method="post" enctype="multipart/form-data" name="address">
+             <td><u><h3>ঠিকানা </h3></u></td>
+       <table>
+           
+            <td><b>বর্তমান  ঠিকানাঃ </b></td>
+            <tr>
+                <td>বাড়ি নাম্বারঃ</td>
+                <td><input type="text" name="rno"></td>
+                
+                
+            </tr>
+            <tr>
+                <td>রোড নং / রাস্তাঃ     </td>
+                <td><input type="text" name="rroad"></td>
+            </tr>
+            <tr>
+                <td>গ্রাম / এলাকাঃ  </td>
+                <td><input type="text" name="rvillage" required> </td>
+                
+            </tr>
+            <tr>
+                <td>ডাকঘরঃ</td>
+                <td> <input type="text" name="rpost" required> </td></td>
+            </tr>
+            <tr>
+                
+                <td>উপজেলা/থানাঃ     </td>
+                <td><input type="text" name="rthana" required></td>
+               
+            
+            </tr>
+            <tr>
+                <td>জেলাঃ</td>
+                <td><input type="text" name="rdist" required></td>
+            </tr>
+            <tr>
+                <td>পোষ্টাল কোডঃ  </td>
+                <td><input type="text" name="rpcode" required></td>
+            </tr>
+        
+
+        
+            <td><b>স্থায়ী ঠিকানাঃ </b></td>
+            <tr>
+                <td>বাড়ি নাম্বারঃ   </td>
+                <td><input type="number" name="sno"></td>
+                
+                
+            </tr>
+            <tr>
+                <td>রোড নং / রাস্তাঃ    </td>
+                <td> <input type="text" name="sroad"> </td>
+            </tr>
+            <tr>
+                <td>গ্রাম / এলাকাঃ   </td>
+                <td><input type="text" name="svillage" required></td>
+                
+            </tr>
+            <tr>
+               <td>ডাকঘরঃ</td>
+               <td> <input type="text" name="spost" required> </td>
+            </tr>
+            <tr>
+                
+                <td>উপজেলা/থানাঃ   </td>
+                <td> <input type="text" name="sthana" required> </td>
+               
+            
+            </tr>
+            <tr>
+               <td>জেলাঃ </td>
+               <td> <input type="text" name="sdist" required> </td>
+            </tr>
+            <tr>
+                <td>পোষ্টাল কোডঃ   </td>
+                <td> <input type="number" name="spcode" required></td>
+            </tr>
+
+
+         
+                <td>
+                    <b><h3>দেশঃ </h3></b>
+                </td>
+                <td>
+                   
+                   <select name="country" style="font-size: 20px">
+                        <option value="bangladesh">বাংলাদেশ</option>
+                        <option value="india">ভারত </option>
+                        <option value="pakistan">পাকিস্তান </option>
+                        <option value="nepal">নেপাল  </option>
+                        <option value="vutan">ভুটান </option>
+                    </select> 
+
+                </td>
+            </tr> 
+              <td><u><h3>অন্যান্য তথ্য</h3></u></td>
+            <tr>
+                <br> <br>
+                <td>
+                   তোমার সম্পর্কে লিখওঃ 
+                </td>
+                <td>
+                    <textarea name="yourself"  cols="50" rows="20" maxlength="500"></textarea>
+                </td>
+            </tr>
+       </table>  
+        <br>
+    <button type="submit" name="fbtn">
+        <h2> সাবমিট </h2>
+    </button>
+        
+    </form>
+</center>
+ </section>   
+
+</body>
+</html>

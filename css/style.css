@@ -1,0 +1,338 @@
+
+/* header section*/
+header{margin: 1% 0%;}
+header a{}
+header a img{
+    margin-left: 8%;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+header h1{
+    font-size: 50px;
+    color: green;
+    margin-left: 20%;
+    padding-top: 20px;
+}
+
+.menu-section{
+    background: green;
+}
+.menu-section .menu{margin: 2% 0%;display: flex;justify-content: center;}
+.menu-section .menu tr{}
+.menu-section .menu tr th {}
+
+.menu-section .menu tr th a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+.info-section{}
+.info-section .info{}
+.info-section .info span{
+    height: 5px;
+    width: 100px;
+    background: green;
+    display: inherit;
+    margin: 0 auto;
+}
+.info-section .info h1 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+.info-section .info p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.banner img{
+    height: 300px;
+    width: 100%;
+}
+
+/*header section*/
+/* about us section*/
+.about-us{}
+.about-us .about1{}
+.about-us .about1 h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.about-us .about1 span{
+    background: green;
+    height: 5px;
+    width: 100px;
+    display: inherit;
+    margin: 0 auto;
+}
+.about-us .about1 p{
+    margin: 3% 10% 0 10%;
+}
+.about2{}
+.about2 h2{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.about2 span{
+    background: green;
+    height: 5px;
+    width: 100px;
+    margin: 0 auto;
+    display: inherit;
+}
+.about2 table{
+    margin: 20px;
+    height: 250px;
+    width: 50%;
+}
+.about2 table tr{}
+.about2 table th{
+    text-align: center;
+}
+.about2 table td{
+    text-align: center;
+}
+
+.about3{}
+.about3 h2{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.about3 span{
+    background: green;
+    height: 5px;
+    width: 100px;
+    margin: 0 auto;
+    display: inherit;
+}
+.about3 table{
+    margin: 20px;
+    height: 250px;
+    width: 50%;
+}
+.about3 table tr{}
+.about3 table th{
+    text-align: center;
+}
+.about3 table td{
+    text-align: center;
+}
+
+/* about us section*/
+.teacher-section{}
+.teacher-section span{
+    background: green;
+    height: 5px;
+    width: 100px;
+    margin: 0 auto;
+    display: inherit;
+}
+.teacher-section h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.teacher2{
+    height: 200px;
+    background: #d1ebe2;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    margin-right: 3%;
+}
+.teacher-section .teacher2 .text{
+    float: right;
+    width: 50%;
+}
+.teacher-section .teacher2 .text p{
+    text-align: center;
+    margin-top: 10%;
+}
+.teacher-section .teacher2 .img{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.teacher-section .teacher2 .img img {
+    text-align: center;
+    height: 200px;
+    width: 175px;
+
+}
+/*teacher 2*/
+
+.teacher1{
+    height: 200px;
+    background: #99a8a3;
+    border-radius: 20px;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 3%;
+}
+.teacher-section .teacher1 .text{
+    float: left;
+    width: 50%;
+}
+.teacher-section .teacher1 .text p{
+    text-align: center;
+    margin-top: 10%;
+}
+.teacher-section .teacher1 .img{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+.teacher-section .teacher1 .img img {
+    text-align: center;
+    height: 200px;
+    width: 175px;
+}
+
+/*teacher 2*/
+
+/*student section*/
+.student-section {
+    text-align: center;
+    padding-bottom: 5%;
+}
+.student-section h1{
+    margin-bottom: 0px;
+}
+.student-section span{
+    background: green;
+    height: 5px;
+    width: 100px;
+    margin: 0 auto;
+    display: inherit;
+}
+.student-section .student{}
+.student-section .student table{
+    height: auto;
+    width: 50%;
+}
+.student-section .student table tr{}
+.student-section .student table th {}
+.student-section .student table td{
+    text-align: center;
+}
+/*student section*/
+
+/* result section*/
+.result-section {
+    text-align: center;
+    padding-bottom: 5%;
+}
+.result-section .result{}
+.result-section .result h2{}
+.result-section .result{}
+
+.result-section .result table{
+    height: auto;
+    width: 50%;
+}
+
+.result-section .result tr {}
+
+.result-section .result th {}
+
+.result-section .result td{
+    text-align: center;
+}
+/* result section*/
+
+/* admission section*/
+.addmission-section {
+    text-align: center;
+}
+.addmission-section .admission{}
+.addmission-section .admission h1{
+    margin-bottom: 0px;
+}
+.addmission-section .admission span{
+    background: green;
+    width: 100px;
+    height: 5px;
+    display: inherit;
+    margin: 0 auto;
+}
+.addmission-section .admission p{}
+.addmission-section .admission .online {
+    padding-bottom: 10px;
+}
+.addmission-section .admission .offline{
+    padding-bottom: 20px;
+}
+/*admission section*/
+
+/* contact section*/
+.contact-section{}
+.contact{}
+.contact p{}
+.contact .form-contact{
+    text-align: left;
+    margin-left: 20%;
+}
+.contact .form-contact h2{}
+.contact .form-contact form{}
+.contact .offline-contact{
+    text-align: right;
+    width: 90%;
+}
+.contact .offline-contact h2{}
+.contact .offline-contact p{}
+/* contact section*/
+
+/* photo gellary*/
+.photo-gellary{
+    text-align: center;
+}
+.photo-gellary .photo {}
+.photo-gellary .photo span{
+    height: 5px;
+    width: 100px;
+    background: green;
+    display: inherit;
+    margin: 0px auto;
+}
+.photo-gellary .photo table{
+    margin: 10px;
+}
+.photo-gellary .photo tr{}
+.photo-gellary .photo td{}
+.photo-gellary .photo h2{
+    margin-bottom: 0;
+}
+.photo-gellary .photo a img{
+    height: 300px;
+    width: 400px;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+/* photo gellary*/
+
+/*form section*/
+.form-section{}
+.form-section{
+    text-align: center;
+}
+.form-section table{}
+.form-section tr{  }
+.form-section td{
+    text-align: right;
+}
+/*form section*/
+footer{
+    background-color: green;
+    padding: 10px 0px 10px 0;
+    font-size: 25px;
+    color: #f5aa42;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
